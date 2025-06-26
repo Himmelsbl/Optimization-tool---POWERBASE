@@ -548,7 +548,7 @@ def calculation():#started by pressing calculation button on the input surface
                       
             # Recieve PV data
             print('\nRecieving PV Data')
-            token = 'a7ccf3b89a387df7f2cd2f3b8351bf96f264f2d9'
+            token = """insert token here!"""
             api_base = 'https://www.renewables.ninja/api/'
             s = requests.session()
             s.headers = {'Authorization': 'Token ' + token}
